@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food website</title>
+   <link rel="shortcut icon" type="image" href="imagesfoods/preview-removebg-preview.png">
+
+   <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- Swiper CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- LightGallery CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link -->
+   <link rel="stylesheet" href="stylefoods.css">
+
+</head>
+<body>
+   
+<!-- header section starts -->
+<section class="header">
+
+   <a href="#" class="logo"><i class="fas fa-utensils"></i> FOODIE HOME ❤️</a>
+
+   <nav class="navbar">
+      <a href="FOOD_2.html">about</a>
+      <a href="FOOD_3.html">food</a>
+      <a href="FOOD_4.html">gallery</a>
+      <a href="FOOD_5.html">menu</a>
+      <a href="FOOD_6.html" target="_blank">order</a>
+      <a href="BLOGS.html">blogs</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<!-- header section ends -->
+
+<!-- home section starts -->
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>delicious cooking</h3>
+               <a href="https://www.zomato.com/india" class="btn" target="_blank">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>morning moment</h3>
+               <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- Include Swiper JS -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script>
+   var swiper = new Swiper('.home-slider', {
+      loop: true,
+      navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+      },
+   });
+</script>
+<section class= "footer">
+   <div class="credit"> Created by <span>AMAN RANJAN</span>  </div>
+
+</section>
+</body>
+</html>
+
+
+<!-- home section ends -->
+
