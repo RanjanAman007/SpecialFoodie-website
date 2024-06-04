@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food website</title>
+   <link rel="shortcut icon" type="image" href="imagesfoods/preview-removebg-preview.png">
+
+   <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- Swiper CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- LightGallery CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link -->
+   <link rel="stylesheet" href="stylefoods.css">
+
+</head>
+<body>
+   
+<!-- header section starts -->
+<section class="header">
+
+   <a href="#" class="logo"><i class="fas fa-utensils"></i> FOODIE HOME ❤️</a>
+
+   <nav class="navbar">
+      <a href="FOOD_2.html">about</a>
+      <a href="FOOD_3.html">food</a>
+      <a href="FOOD_4.html">gallery</a>
+      <a href="FOOD_5.html">menu</a>
+      <a href="FOOD_6.html" target="_blank">order</a>
+      <a href="BLOGS.html">blogs</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<!-- header section ends -->
+
+<!-- home section starts -->
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>delicious cooking</h3>
+               <a href="https://www.zomato.com/india" class="btn" target="_blank">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>morning moment</h3>
+               <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(imagesfoods/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- Include Swiper JS -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script>
+   var swiper = new Swiper('.home-slider', {
+      loop: true,
+      navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+      },
+   });
+</script>
+<section class= "footer">
+   <div class="credit"> Created by <span>AMAN RANJAN</span>  </div>
+
+</section>
+</body>
+</html>
+
+
+<!-- home section ends -->
+
+
+
+<!-- here own wards i am starts seconds pages and end.......................  -->
+<!-- about section starts ....................................... -->
+
+<!-- <section class="about" id="about">
+
+   <div class="image">
+      <img src="imagesfoods/big-thali.jpeg" alt="">
+   </div>
+
+   <div class="content">
+
+
+      from second page 
+
+      <h3 class="title">Welcome to our Restaurant</h3>
+      <p>Hey!! We welcome you on our website FOODIE. Here you'll get every type of food on you doorstep within 15 to 30 minutes. We are available in more than 20 cities in the country. Enjoy your meal.</p>
+      <a href="https://en.wikipedia.org/wiki/Indian_cuisine" class="btn" target="_blank">read more</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="imagesfoods/about-icon-1.png" alt="">
+            <h3>quality food</h3>
+         </div>
+         <div class="icons">
+            <img src="imagesfoods/about-icon-2.png" alt="">
+            <h3>food & drinks</h3>
+         </div>
+         <div class="icons">
+            <img src="imagesfoods/about-icon-3.png" alt="">
+            <h3>expert chefs</h3>
+         </div>
+      </div>
+   </div>
+
+</section> -->
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<!-- third page aman -->
+
+
+<!-- 
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>popular dishes</span>
+      <h3>our delicious food</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="imagesfoods/pav-bhaji.jpg" alt="">
+            <h3>PAV BHAJI</h3>
+            <div class="price">RS 100</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="imagesfoods/Pani-Puri.jpg" alt="">
+            <h3>PANI PURI</h3>
+            <div class="price">Rs 50/8 PC</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="imagesfoods/BH.jpg" alt="">
+            <h3>CHOLE Bhature</h3>
+            <div class="price">RS 120</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="imagesfoods/tikki.jfif" alt="">
+            <h3>ALOO TIKKI</h3>
+            <div class="price">RS 70</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="imagesfoods/dosa.jpg" alt="">
+            <h3>SOUTH INDIAN DOSA</h3>
+            <div class="price">RS 110</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-6">
+            <img src="imagesfoods/download (1).jfif" alt="">
+            <h3>JALEBI</h3>
+            <div class="price">RS 360/KG </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section> -->
+
+
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<!-- <section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="imagesfoods/pav-bhaji.jpg" alt="">
+      <h3>pav-bhaji</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Pav bhaji is a fast food dish from India consisting of a thick vegetable curry served with a soft bread roll. Its origins are in the state of Maharashtra.</p>
+      <div class="price">Rs 100</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="imagesfoods/Pani-Puri.jpg" alt="">
+      <h3>Pani-Puri</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Panipuri, phuchka, gupchup, golgappa, or pani ke patashe is a type of snack originating in the Indian Subcontinent, where it is an extremely common street food.</p>
+      <div class="price">Rs 50/8 PC</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="imagesfoods/chole.jpg" alt="">
+      <h3>chole Bhature</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Chole bhature is a food dish popular in the Northern areas of the Indian subcontinent.Although it is known as a typical Punjabi dish, It is originally a culinary dish of Delhi and Uttar Pradesh.</p>
+      <div class="price">Rs 120</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="imagesfoods/tikki.jfif" alt="">
+      <h3>chole-tikki</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Aloo tikki, also known as aloo ki tikkia, aloo ki tikki or alu tikki, is a snack originating from the Indian subcontinent.It is made of boiled potatoes, peas, and various curry spices. </p>
+      <div class="price">RS 70</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="imagesfoods/dosa.jpg" alt="">
+      <h3>dosa</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>A dosa, also called dosai, dosey, or dosha is a thin pancake in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are popular in South Asia as well as around the world. Dosas are served hot, often with chutney and sambar.</p>
+      <div class="price">RS 110</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-6">
+      <img src="imagesfoods/download (1).jfif" alt="">
+      <h3>Jalebi</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Jalebi, is a popular sweet snack in south and west Asia, Africa, and Mauritius. It goes by many names, including jilapi, zelepi, jilebi, jilipi, zulbia, jerry, mushabak, z’labia, or zalabia</p>
+      <div class="price">RS 360/KG </div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+</section> -->
+
+
+
+
+
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+<!-- 4th page in this  -->
+
+
+<!-- 
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>our Gallery</span>
+      <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="imagesfoods/PIZZA.jpg" class="box">
+         <img src="imagesfoods/PIZZA.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="imagesfoods/FRIES.jpg" class="box">
+         <img src="imagesfoods/FRIES.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="imagesfoods/MOMO.jpg" class="box">
+         <img src="imagesfoods/MOMO.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="imagesfoods/SAMOSA.jpeg" class="box">
+         <img src="imagesfoods/SAMOSA.jpeg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="imagesfoods/SAND.jpg" class="box">
+         <img src="imagesfoods/SAND.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="imagesfoods/BURGER.jpg" class="box">
+         <img src="imagesfoods/BURGER.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section> -->
+
+
+
+
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+<!-- 5th page in this  -->
+
+
+
+
+<!-- 
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>our menu</span>
+      <h3>our popular dishes</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">breakfast</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>POHA</h3>
+                     <p>Pohaa, also known as pauwa, sira, chira, or avalakki, among many other names, is flattened rice originating from the Indian subcontinent. Rice is parboiled before flattening so that it can be consumed with very little to no cooking</p>
+                  </div>
+                  <div class="price">RS 50</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>JALEBI</h3>
+                     <p>Jalebi, is a popular sweet snack in south and west Asia, Africa, and Mauritius. It goes by many names, including jilapi, zelepi, jilebi, jilipi, zulbia, jerry, mushabak, or zalabia..</p>
+                  </div>
+                  <div class="price">RS 360/KG</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>OMELETTE</h3>
+                     <p>In cuisine, an omelette is a dish made from beaten eggs, fried with butter or oil in a frying pan. It is quite common for the omelette to be folded around fillings such as chives, vegetables, mushrooms, meat, cheese, onions or some combination of the above.</p>
+                  </div>
+                  <div class="price">RS 80</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>BOIL EGGS</h3>
+                     <p>Boiled eggs are eggs, typically from a chicken, cooked with their shells unbroken, usually by immersion in boiling water. Hard-boiled eggs are cooked so that the egg white and egg yolk both solidify, while soft-boiled eggs may leave the yolk, and sometimes the white, at least partially liquid and raw..</p>
+                  </div>
+                  <div class="price">RS 40/ 3PC</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>SAMOSA</h3>
+                     <p>A samosa or singara is a fried South Asian pastry with a savory filling, including ingredients such as spiced potatoes, onions, and peas. It may take different forms, including triangular, cone, or half-moon shapes, depending on the region..</p>
+                  </div>
+                  <div class="price">RS 50/2PC</div>
+               </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">lunch</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3> IDLI-SABHAR</h3>
+                     <p>Idli sambar is a popular South Indian breakfast combination where fluffy soft idli (savory steamed cake) is served with hot sambar (vegetable lentil stew). It makes a delicious, healthy, comforting, and protein-packed meal.</p>
+                  </div>
+                  <div class="price">RS 130</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>POORI BHAJI</h3>
+                     <p>Puri bhaji is a dish, originating from the Indian subcontinent, of puri and aloo bhaji. It is a traditional breakfast dish in North India. Many Indian households prefer puri bhaji and other traditional dishes over cereals for breakfast. </p>
+                  </div>
+                  <div class="price">RS 80</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>PAV BHAJI</h3>
+                     <p>Pav bhaji is a fast food dish from India consisting of a thick vegetable curry served with a soft bread roll. Its origins are in the state of Maharashtra.</p>
+                  </div>
+                  <div class="price">RS 100</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>CHOLE KULCHE</h3>
+                     <p>It is made with white peas and mixed with simple spices like red chilli powder, salt and chaat masala and topped with some chaat masala gives it all that scrumptious flavour. It tastes even better when topped with a little bit of butter and accompanied with fresh pickled salad..</p>
+                  </div>
+                  <div class="price">RS 130</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dinner</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>BUTTER PANNER MASALA</h3>
+                     <p>Paneer Matar Malai is a rich, creamy and delicious restaurant style curry made with cottage cheese and fresh green peas. It is quite different from the Dhaba Style Matar Paneer although most of the basic ingredients are the same. Malai refers to cream and this curry couldn't get anymore creamier & richer..</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>CHOLE Bhature</h3>
+                     <p>Chole bhature is a food dish popular in the Northern areas of the Indian subcontinent.Although it is known as a typical Punjabi dish, It is originally a culinary dish of Delhi and Uttar Pradesh.</p>
+                  </div>
+                  <div class="price">RS 100</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>PIZZA</h3>
+                     <p>Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta</p>
+                  </div>
+                  <div class="price">RS 450</div>
+               </div>
+     
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">drinks</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>cold COFFEE</h3>
+                     <p>Iced coffee is a coffee beverage served cold. It may be prepared either by brewing coffee normally and then serving it over ice or in cold milk, or by brewing the coffee cold. In hot brewing, sweeteners and flavoring may be added before cooling, as they dissolve faster</p>
+                  </div>
+                  <div class="price">RS 90</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TEA</h3>
+                     <p>Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to East Asia which probably originated in the borderlands of southwestern China and northern Myanmar. Tea is also rarely made from the leaves of Camellia taliensis.</p>
+                  </div>
+                  <div class="price">RS 30</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>OREO SHAKE</h3>
+                     <p>You simply combine vanilla ice cream, milk of your choice, and a few Oreo cookies. Then, blend until your desired consistency is reached! If you want your shakes to have a few chunks of cookie, then just pulse a few times in the blender. If you want them mostly smooth, just blend a little more!</p>
+                  </div>
+                  <div class="price">RS 170</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>HOT COFFEE</h3>
+                     <p>In a deep bowl, add 1 tablespoon of coffee grounds for every cup desired. Pour boiling water over the grounds. Pour a little boiling water over the grounds to saturate, and then add the amount of water needed for the intended number of servings. Pour brew into a mug.</p>
+                  </div>
+                  <div class="price">RS 70</div>
+               </div>
+              
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dessert</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>RASGULLA</h3>
+                     <p>Rasgulla, also known as rasagola, rosogola or rosogolla, is a syrupy dessert popular in the Bengal region of the Indian subcontinent. It is made from ball-shaped dumplings of chhena and semolina dough, cooked in light sugar syrup made of sugar. This is done until the syrup permeates the dumplings..</p>
+                  </div>
+                  <div class="price">RS 70/2PC</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>ICE CREAM</h3>
+                     <p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from milk or cream and is flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit such as strawberries or peaches.</p>
+                  </div>
+                  <div class="price">FROM 50RS</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>GULAB JAMUN</h3>
+                     <p>Gulab jamun is a sweet confectionary or dessert, originating in the Indian subcontinent and a type of mithai popular in India, Pakistan, Nepal, the Maldives, and Bangladesh, as well as Myanmar. It is the national dessert of India</p>
+                  </div>
+                  <div class="price">RS 60/2PC</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>RAS MALAI</h3>
+                     <p>Ras malai, rasamalai, or rossomalai is a dessert originating from the eastern regions of the Indian subcontinent. The dessert is called rossomalai in Bengali, ras malai in Hindi, and rasa malei in Odia. It is popular in India, Bangladesh and Pakistan.</p>
+                  </div>
+                  <div class="price">RS 100</div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>  -->
+
+
+
+
+
+ <!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<!-- 6th page in this  -->
+
+<!-- 
+
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>order now</span>
+      <h3>fast home delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60307.59083109428!2d72.840725!3d19.141651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1642222128240!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn" >
+   </form>
+   
+</section> -->
+
+
+
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<!-- Last page of the page website  -->
+
+
+
+<!-- 
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/blog-img-1.jpg" alt="">
+               <span>burger</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 2nd DEC, 2023</a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about burger</a>
+               <p>The name "hamburger" comes from the seaport town of Hamburg, Germany, where it is thought that 19th-century sailors brought back the idea of raw shredded beef (known today as beef tartare) after trading with the Baltic provinces of Russia</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/blog-img-2.jpg" alt="">
+               <span>sandwich</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st june, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about sand-wiches</a>
+               <p>Around 12 billion sandwiches are eaten every year in the UK. The world's largest sandwich currently weighs 5,440 pounds. In 2008, an attempt in Iran to beat the record for the world's biggest sandwich failed when the impatient crowd ate it before it was measured.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/MOMO.jpg" alt="">
+               <span>momos</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st july, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about mo-mos</a>
+               <p>The name “momo” is derived from the Tibetan term “mog mog”. Momo are a type of South Asian dumplings that are hugely popular throughout the region. Momo are basically dough wrapped around stuffed vegetables or meat. These can be cooked in various ways- but are most commonly steamed</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/blog-img-4.jpg" alt="">
+               <span>ice-cream</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st august, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about ice-cream</a>
+               <p>Spreading of American made ice cream for military troops during World War II was a moment when entire world accepted ice cream as a perfect summer-time treat.
+                  </p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/tikki.jfif" alt="">
+               <span>chole-tikki</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st august, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about chole-tikki</a>
+               <p>The Portuguese introduced potatoes, which they called 'Batata', to India in the early seventeenth century when they cultivated it along the western coast. British traders introduced potatoes to Bengal as a root crop, 'Alu'. By the end of the 18th century, it was cultivated across northern hill areas of India.
+                  </p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="imagesfoods/Pani-Puri.jpg" alt="">
+               <span>Pani-Puri</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 21st august, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">facts about pani puri</a>
+               <p>It is also believed that Golgappas originated from Magadha. Magadha is a region of Bihar. Today it is known as Southern Bihar. It is believed that for the first time Panipuri was made in Magadha.
+                  </p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+        
+         
+         </div>
+
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+ -->
+
+
+
+
+<!-- blogs section ends --> 
+
+<!-- footer section starts  -->
+
+<!-- <section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+91 9334935195</p>
+         <p>+91 8434872959</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>Email</h3>
+         <p>ranjanaman2005@gmail.com</p>
+         <p>FOODIE@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>Address</h3>
+         <p>BIHAR, India - 400104</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+      <a href="http://www.twitter.com/" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+      <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit"> Created by <span>AMAN RANJAN</span>  </div>
+
+</section> -->
+
+<!-- footer section ends  -->
+
+<!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script> -->
+
+<!-- custom js file link  -->
+<!-- <script src="scriptfoods.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html> -->
